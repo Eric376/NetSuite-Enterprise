@@ -1,0 +1,11 @@
+Netsuite SuiteScript 2.0 Integration
+Integration script to integrate application with Bear Token Access {read from file} to retrieve projects that is not yet available on NetSuite.
+Compare customer, projects, if customer exists and project is not, the project will created in NetSuite.
+Workflow
+Retrieve projects created today
+                    ==========> Search for existing customer
+                                                ===========> Search for projects
+                                                                      =========> Create new projects
+                                                                                            =======> Send email notification
+
+                                                                                          
