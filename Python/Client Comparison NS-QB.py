@@ -20,7 +20,7 @@ today_date = datetime.now() - timedelta(days=7)
 formatted_date = today_date.strftime('%m-%d-%Y')
 
 body = {
-    "from": "bs9fznzzj",  # Replace with your table DBID
+    "from": "bs9xxxxxx",  # Replace with your table DBID
     "select": [6, 9]
 }
 
